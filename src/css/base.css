@@ -1,24 +1,56 @@
 /* Базові стилі */
 
 body {
-  background-color: #fff;
+  background-image: url('../img/bg-mob.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
 
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 1.6;
-  color: #080c09;
-  /* transition: background-color 0.3s ease, color 0.3s ease; */
+  font-size: 16px;
+  line-height: 150%;
+  color: #010101;
+}
+
+@media (min-resolution: 2x) {
+  body {
+    background-image: url('../img/bg-mob@2x.png');
+  }
 }
 
 section {
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url('../img/bg-tab.png');
+  }
+
+  @media (min-resolution: 2x) {
+    body {
+      background-image: url('../img/bg-tab@2x.png');
+    }
+  }
+
+  section {
+    padding-bottom: 81px;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
+  body {
+    background-image: url('../img/bg-desk.png');
+  }
+
+  @media (min-resolution: 2x) {
+    body {
+      background-image: url('../img/bg-desk@2x.png');
+    }
+  }
+
   section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 110px;
   }
 }
