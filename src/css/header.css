@@ -1,1 +1,24 @@
 /* Класи для хедеру сторінки */
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 16px;
+}
+
+.header-link-logo {
+  display: inline-flex;
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    padding-top: 29px;
+    padding-bottom: 22px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
