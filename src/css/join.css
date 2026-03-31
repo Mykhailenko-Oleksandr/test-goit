@@ -138,6 +138,11 @@
   &:focus {
     background-color: #09723a;
   }
+
+  &:disabled {
+    background-color: #585858;
+    cursor: not-allowed;
+  }
 }
 
 .form-input-list {

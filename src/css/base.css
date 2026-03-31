@@ -11,6 +11,10 @@ body {
   font-size: 16px;
   line-height: 150%;
   color: #010101;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
 }
 
 @media (min-resolution: 2x) {
