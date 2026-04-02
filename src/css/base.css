@@ -1,8 +1,8 @@
 body {
   background-image: url('../img/bg-mob.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
+  background-size: contain;
+  background-position: center;
 
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
