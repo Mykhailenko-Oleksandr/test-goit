@@ -21,17 +21,17 @@
       </div>
       <span class="join-timer-separator">&nbsp;:&nbsp;</span>
       <div class="join-timer-field">
-        <span class="join-timer-value" data-days>00</span>
+        <span class="join-timer-value" data-hours>00</span>
         <span class="join-timer-label">годин</span>
       </div>
       <span class="join-timer-separator">&nbsp;:&nbsp;</span>
       <div class="join-timer-field">
-        <span class="join-timer-value" data-days>00</span>
+        <span class="join-timer-value" data-minutes>00</span>
         <span class="join-timer-label">хвилин</span>
       </div>
       <span class="join-timer-separator">&nbsp;:&nbsp;</span>
       <div class="join-timer-field">
-        <span class="join-timer-value" data-days>00</span>
+        <span class="join-timer-value" data-seconds>00</span>
         <span class="join-timer-label">секунд</span>
       </div>
     </div>
@@ -42,6 +42,7 @@
           <input
             type="text"
             name="userName"
+            id="modal-input-name"
             placeholder="Введи своє ім’я"
             class="input"
           />
@@ -52,6 +53,7 @@
           <input
             type="email"
             name="userEmail"
+            id="modal-input-email"
             placeholder="Введи свій E-mail"
             autocomplete="email"
             class="input"
@@ -64,6 +66,7 @@
             <input
               type="tel"
               name="userPhone"
+              id="modal-input-phone"
               placeholder="+380 95 -- -- ---"
               class="input input-phone"
             />
@@ -83,6 +86,7 @@
             <input
               type="checkbox"
               name="accept-political"
+              id="modal-checkbox"
               class="checkbox-accept-political"
             />
             <span class="custom-checkbox">
@@ -109,7 +113,7 @@
         </p>
       </div>
 
-      <button type="submit" disabled class="join-register-btn">
+      <button type="submit" disabled class="register-btn modal-submit-btn">
         Зареєструватися
       </button>
     </form>

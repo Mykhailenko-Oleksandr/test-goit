@@ -9,11 +9,16 @@ export function openModal() {
   refs.body.classList.add('no-scroll');
 
   refs.closeModalBtn.addEventListener('click', closeModal);
+  refs.ModalRegisterBtn.addEventListener('click', handleSubmit);
 }
 
-function closeModal() {
+export function closeModal() {
   refs.modal.classList.remove('is-open');
   refs.body.classList.remove('no-scroll');
 
   refs.closeModalBtn.removeEventListener('click', closeModal);
+}
+
+function handleSubmit(e) {
+  e.preventDefault();
 }
