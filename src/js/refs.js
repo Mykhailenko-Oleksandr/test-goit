@@ -4,14 +4,21 @@ export const refs = {
   closeModalBtn: document.querySelector('.close-modal-btn'),
   registerBtnMob: document.querySelector('button[data="registerBtnMob"]'),
 
-  JoinRegisterBtn: document.querySelector('.join-register-btn'),
-
   // Modal form
+  ModalForm: document.querySelector('.form-modal'),
   ModalInputName: document.querySelector('#modal-input-name'),
   ModalInputEmail: document.querySelector('#modal-input-email'),
   ModalInputPhone: document.querySelector('#modal-input-phone'),
   ModalCheckbox: document.querySelector('#modal-checkbox'),
   ModalRegisterBtn: document.querySelector('.modal-submit-btn'),
+
+  // Join form
+  JoinForm: document.querySelector('.form-join'),
+  JoinInputName: document.querySelector('#join-input-name'),
+  JoinInputEmail: document.querySelector('#join-input-email'),
+  JoinInputPhone: document.querySelector('#join-input-phone'),
+  JoinCheckbox: document.querySelector('#join-checkbox'),
+  JoinRegisterBtn: document.querySelector('.join-register-btn'),
 
   // Timer
   timerDays: document.querySelectorAll('span[data-days]'),

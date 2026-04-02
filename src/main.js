@@ -5,7 +5,7 @@ import { refs } from './js/refs';
 /**
  * У файлі main.js логіка сторінки Index (index.html)
  */
-// console.log(refs.timerDays);
+// console.log(refs.JoinInputName);
 
 window.addEventListener('resize', handleCheckWidth);
 handleCheckWidth();
