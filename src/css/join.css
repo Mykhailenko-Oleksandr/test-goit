@@ -88,14 +88,14 @@
   margin-bottom: 24px;
 }
 
-.join-timer-field {
+/* .timer-field {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2px;
 }
 
-.join-timer-box {
+.timer-box {
   display: flex;
   justify-content: center;
 
@@ -105,20 +105,20 @@
 
   margin-bottom: 24px;
 
-  & .join-timer-separator {
+  & .timer-separator {
     color: rgba(1, 1, 1, 0.2);
   }
 
-  & .join-timer-field:last-child .join-timer-value {
+  & .timer-field:last-child .timer-value {
     color: #0f7c41;
   }
 }
 
-.join-timer-label {
+.timer-label {
   font-weight: 600;
   font-size: 8px;
   line-height: normal;
-}
+} */
 
 .register-btn {
   font-weight: 700;
@@ -375,8 +375,8 @@
     line-height: 114%;
   }
 
-  .join-timer-box {
+  /* .timer-box {
     font-size: 32px;
     line-height: 113%;
-  }
+  } */
 }

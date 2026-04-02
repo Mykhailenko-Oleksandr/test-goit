@@ -1,0 +1,38 @@
+.timer-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.timer-box {
+  display: flex;
+  justify-content: center;
+
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 114%;
+
+  margin-bottom: 24px;
+
+  & .timer-separator {
+    color: rgba(1, 1, 1, 0.2);
+  }
+
+  & .timer-field:last-child .timer-value {
+    color: #0f7c41;
+  }
+}
+
+.timer-label {
+  font-weight: 600;
+  font-size: 8px;
+  line-height: normal;
+}
+
+@media only screen and (min-width: 1440px) {
+  .timer-box {
+    font-size: 32px;
+    line-height: 113%;
+  }
+}
