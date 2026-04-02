@@ -1,8 +1,11 @@
-/**
- * У файлі products-api.js зберігай функції для запитів на бекенд
- */
-
 import axios from 'axios';
-import { API_BASE_URL } from './constants';
 
-axios.defaults.baseURL = API_BASE_URL;
+export async function registerUser(obj) {
+  const response = await axios.post('https://example.com/register', obj, {
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  });
+
+  return response.data;
+}

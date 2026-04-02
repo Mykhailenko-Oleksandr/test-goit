@@ -1,9 +1,5 @@
-/**
- * У файлі handlers.js зберігай хендлери, які передаються в addEventListener.
- */
-
 import { refs } from './refs.js';
-import { closeModal, openModal } from './modal.js';
+import { closeModal, handleSubmit, openModal } from './modal.js';
 
 let isListenerOnRegisterBtnMob = false;
 
