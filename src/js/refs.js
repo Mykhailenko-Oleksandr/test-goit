@@ -2,7 +2,7 @@ export const refs = {
   body: document.querySelector('body'),
   modal: document.querySelector('.modal'),
   closeModalBtn: document.querySelector('.close-modal-btn'),
-  registerBtnMob: document.querySelector('button[data="registerBtnMob"]'),
+  registerBtnMob: document.querySelector('button[data-id="registerBtnMob"]'),
 
   // Modal form
   ModalForm: document.querySelector('.form-modal'),
